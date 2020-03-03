@@ -12,7 +12,7 @@ body {
     text-align: center;
     font-size: 50px;
     font-family: Raleway,'monospace';
-    color: rgb(141, 133, 133);
+    color: rgb(48, 97, 105);
     letter-spacing: 1.5px;
     font-weight: 500;
 
@@ -22,7 +22,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    background: rgb(102, 53, 180);
+    background: rgb(86, 129, 129);
     box-shadow: 1px 0px 1px 2px #ccc;
 }
 
@@ -128,7 +128,8 @@ figcaption a {
     text-decoration: none;
     font-size: 1.5rem;
     color: rgb(90, 86, 86);
-    font-weight: 300;
+    font-weight: 200;
+    letter-spacing: 1.1px;
 }
 
 .service-img{
