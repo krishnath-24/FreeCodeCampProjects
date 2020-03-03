@@ -1,0 +1,114 @@
+html {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #ccc;
+
+}
+body {
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cadetblue;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    background: rgb(83, 77, 77);
+    padding: 1em;
+    box-shadow: 1px 0px 1px 2px #ccc;
+}
+
+header img {
+    height: 70px;
+    width:  70px;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+
+header nav ul { 
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a{
+    margin-left: 1.5rem;
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: rgb(209, 205, 205);
+}
+
+main {
+    margin-top: 2rem;
+}
+
+main section {
+    height: fit-content;
+}
+
+main #about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main #about iframe {
+
+    width: 30%;
+    height: 350px;
+    min-height: 300px;    
+    min-width: 400px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px 4px rgb(136, 127, 127);
+}
+#reviews {
+    display: flex;
+    justify-content: center; 
+}
+
+#reviews form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reviews form label,input {
+    width: 70%;
+    min-width: 300px;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+
+
+
+
+@media screen and (max-width: 550px) {  
+
+    html{
+        background: #ccc;
+        font-size: 10px !important;
+    }
+}

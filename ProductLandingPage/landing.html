@@ -1,12 +1,53 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="landing.css">
     <title>Product Landing Page</title>
 </head>
 <body>
+
+    <header id="header" >
+        <img src="brand_logo.jpeg" alt="company-logo" id="header-img">
+        <nav id="nav-bar">
+            <ul id="nav-links">
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#services">Services</a></li>
+                <li><a class="nav-link" href="#reviews">Reviews</a></li>
+            </ul>
+            <div id="login">
+                <ul id="nav-links">
+                    <li><a href="#" class="nav-link">Sign up</a></li>
+                    <li><a href="#" class="nav-link">Sign In</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <h1>Welcome to Krishnath Groups</h1>
+
+    <main>
+
+            <section id="about">
+                    <iframe id="video" src="https://www.youtube.com/embed/d8eoR-q_gSg">
+                    </iframe>
+            </section>
+
+            <section id="services"></section>
+
+            <section id="reviews">
+                    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                        <label for="email">
+                        </label>
+                        <input type="email" id="email" required placeholder="john@doe.com" name="email">
+                        <input type="submit" id="submit">
+                    </form>
+            </section>
+
+    </main>
 
     
     
