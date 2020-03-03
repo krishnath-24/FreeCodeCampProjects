@@ -53,12 +53,19 @@ header nav ul li a{
     color: rgb(209, 205, 205);
 }
 
+header nav ul li a:hover {
+    color: white;
+    transition-delay: 100ms;
+    transition-duration: 300ms;
+}
+
 main {
     margin-top: 2rem;
 }
 
 main section {
-    height: fit-content;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 main #about {
@@ -77,6 +84,52 @@ main #about iframe {
     border-radius: 7px;
     box-shadow: 2px 2px 10px 4px rgb(136, 127, 127);
 }
+
+#services {
+    display: flex;
+    justify-content: center;
+}
+
+#services #services-container {
+
+    display: flex;
+    flex-direction: row;
+    width: 94%;
+    justify-content: space-between;
+    
+}
+
+.service {
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+}
+
+
+figcaption {
+    width: 300px;
+}
+
+figcaption a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.service-img{
+
+    width: 30%;
+    height: 30%;
+    min-width: 350px;
+    min-height: 350px;
+    border-radius: 7px;
+
+}
+
+
+
+
 #reviews {
     display: flex;
     justify-content: center; 
