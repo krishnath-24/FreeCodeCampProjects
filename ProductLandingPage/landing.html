@@ -1,12 +1,80 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="landing.css">
     <title>Product Landing Page</title>
 </head>
 <body>
+
+    <header id="header" >
+        <img src="brand_logo.jpeg" alt="company-logo" id="header-img">
+        <nav id="nav-bar">
+            <ul id="nav-links">
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#services">Services</a></li>
+                <li><a class="nav-link" href="#reviews">Reviews</a></li>
+                <li><a class="nav-link" href="#donate">Donate</a></li>
+            </ul>
+            <div id="login">
+                <ul id="nav-links">
+                    <li><a href="#" class="nav-link">Sign up</a></li>
+                    <li><a href="#" class="nav-link">Sign In</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <h1 id="welcome">Welcome to Krishnath Groups</h1>
+
+    <main>
+
+            <section id="about">
+                    <iframe id="video" src="https://www.youtube.com/embed/ijOCFeDsun8">
+                    </iframe>
+            </section>
+
+
+
+            <section id="services">
+                <div id="services-container">
+                    <div class="service" id="healthcare-srvc">
+    <img class="service-img" src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="healthcare-image">
+                        <figcaption><a href="">Learn more about how we help save people's lives</a></figcaption>
+                    </div>
+
+                    <div class="service" id="software-srvc">
+                            <img class="service-img" src="https://images.unsplash.com/photo-1550221927-f7e52256370b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80" alt="healthcare-image">
+                            <figcaption><a href="">Learn how we transorm IT businesses.</a></figcaption>
+                    </div>
+                    <div class="service" id="self-development-srvc">
+                            <img class="service-img" src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1535&q=80" alt="healthcare-image">
+                            <figcaption><a href="">Get to know how we help people drink safe and clean water</a></figcaption>
+                    </div>
+                    <div class="service" id="self-development-srvc">
+                            <img class="service-img" src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1535&q=80" alt="healthcare-image">
+                            <figcaption><a href="">Get to know how we help people drink safe and clean water</a></figcaption>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section id="reviews">
+                    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                        <label for="email">
+                        </label>
+                        <input type="email" id="email" required placeholder="john@doe.com" name="email">
+                        <input type="submit" id="submit">
+                    </form>
+            </section>
+            <section id="donate">
+
+            </section>
+
+    </main>
 
     
     
