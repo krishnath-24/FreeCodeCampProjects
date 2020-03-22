@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Meal Generator</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <h2>Random Meal Generator</h2>
+        <h4>Want a meal ? Do a headstand... lol just click the button.</h4>
+        <button id="get_meal">Get Meal</button>
+    </header>
+    <main>
+        
+        <section id="meal_info">
+            
+            <section id="meal_ingredients">
+
+                <img id="meal_thumbnail" src="" alt="">
+                <div id="meal_general_info">
+                    <div ><strong>Category : </strong><span id="category"></span></div>
+                    <div ><strong>Area : </strong><span id="area"></span></div>
+                    <div ><strong>Tags : </strong><span id="tags"></span></div>
+                </div>
+
+                <div id="ingredients">
+                    <h2>Ingredients : </h2>
+                    <ul id="ingredients_list">
+                        
+                    </ul>
+                </div>
+
+            </section>
+            <section id="meal_nameNInstructions" >
+
+                <h2 id="meal_name"></h2>
+                <p id="meal_Instructions"></p>
+            </section>
+
+        </section>
+
+
+        <section>
+            <iframe src="" id="video_recipe">
+            </iframe>
+            <figcaption></figcaption>
+        </section>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
