@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 live data</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    
+    <header>
+        <h2>Live Corona Virus Data</h2>
+        <figcaption>Reliable data about covid-19 Pandemic</figcaption>
+    </header>
+
+    <main>
+
+        <div id="latest_data_container">
+            <button id="latest_data_btn">Get Latest World Count </button>
+            <div>
+                <label id="conf_label" style="display: none;" for="">Confirmed Covid-19 cases : </label><span id="conf_span_latest"></span>
+            </div>
+            <div>
+                <label id="deaths_label" style="display: none;" for="">Deaths : </label><span id="deaths_span_latest"></span>
+            </div>
+        </div>
+        
+        <div id="country_data_container">
+            <button id="country_data-btn">Get Data Country Wise</button>
+        </div>
+    </main>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
