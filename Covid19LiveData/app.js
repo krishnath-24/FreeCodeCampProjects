@@ -10,6 +10,7 @@ confirmedCountry = document.getElementById("confirmed_country");
 deathsCountry = document.getElementById("deaths_country");
 countryDataContainer = document.getElementById("country_data_container");
 
+
 LatestDataButton.addEventListener('click',function(){
 
     console.log("The latest button was clicked");
@@ -87,7 +88,9 @@ function filterArray(dataArray){
     const map = new Map();  
 
     for(const item of dataArray){
+
         if(!map.has(item.country)){
+
             map.set(item.country,true);
             countryDataArray.push(item);
         }
