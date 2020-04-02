@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;   
+    background: #ECEFF1;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    
+}
+
+
+#content{
+
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: #B0BEC5;
+    box-shadow: 1px 1px 10px 1px #B0BEC5;
+    border-radius: 20px;
+}
+
+#content img {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#content-details{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#content-details:hover{
+    transition : transform 0.4s ease-in-out;
+    transform: scale(1.02);
+}
+
+#content-details #content-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+    margin-top: 5px;
+    opacity: 0.8;
+    font-size: 22px;
+}
+
+#designer{
+    display: flex;
+    align-items: center ;
+    float: left;
+    border-radius: 10px;
+}
+
+#designer #designer-details{
+    margin-left: 10px;
+}
+
+#designer #designer-details h4{
+    margin-bottom: 2px;
+    margin-top: 2px;    
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+span{
+    opacity: 0.8;
+}
+
+
+#designer #profile-pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+#designer #profile-pic:hover{
+   
+    transition: transform 1 linear;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
