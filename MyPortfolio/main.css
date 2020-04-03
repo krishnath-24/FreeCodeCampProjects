@@ -1,0 +1,43 @@
+* {
+    font-family: monospace;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #1bb9ce   ;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.site-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center ;
+    
+}
+
+.site-content{
+    margin-top: 20px;
+    opacity: 0.9;
+    color: #1d535a;
+}
+
+.profile-image{
+    border-radius: 50%;
+    box-shadow: 1px 5px 10px 1px #124a52;
+
+}
+
+.youtube-link{
+    text-decoration: none;
+    color: inherit;
+
+}
